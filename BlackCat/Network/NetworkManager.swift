@@ -21,7 +21,7 @@ extension NetworkManager: TargetType {
     var path: String {
         switch  self {
         case .fetchJavaRepositories:
-            return "/search/repositories?q=language:Java&sort=stars&page=1"
+            return "/search/repositories?q=language:Java&sort=stars&?page"
         case .fetchRepositoryPullRequests(let owner, let repository):
             return "/repos/\(owner)/\(repository)/pulls"
         }

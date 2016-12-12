@@ -12,17 +12,17 @@
         <!--Repositories-->
         <scene sceneID="OS6-1k-Od3">
             <objects>
-                <tableViewController title="Repositories" id="Fc9-xV-hfo" customClass="RepoViewController" customModule="JavaHub" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Repositories" id="Fc9-xV-hfo" customClass="RepositoryViewController" customModule="BlackCat" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="170" sectionHeaderHeight="28" sectionFooterHeight="28" id="P9Q-V5-Yrf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RepoCell" rowHeight="171" id="UnC-ut-ohu" customClass="RepoCell" customModule="JavaHub" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RepoCell" rowHeight="171" id="UnC-ut-ohu" customClass="RepositoryCell" customModule="BlackCat" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="171"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UnC-ut-ohu" id="Vxa-nN-4I0">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="170.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Owner Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOU-yq-DO7">
@@ -147,13 +147,13 @@
         <!--Requests View Controller-->
         <scene sceneID="JHJ-X7-XFe">
             <objects>
-                <tableViewController id="g5T-bk-Vaq" customClass="RequestsViewController" customModule="JavaHub" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="g5T-bk-Vaq" customClass="RequestsViewController" customModule="BlackCat" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="235" sectionHeaderHeight="28" sectionFooterHeight="28" id="dX6-HD-wnO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RequestsCell" rowHeight="235" id="igg-QN-8Qj" customClass="RequestsCell" customModule="JavaHub" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RequestsCell" rowHeight="235" id="igg-QN-8Qj" customClass="RequestsCell" customModule="BlackCat" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="235"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="igg-QN-8Qj" id="G7H-Ol-hgv">
