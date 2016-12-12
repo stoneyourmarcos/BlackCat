@@ -1,6 +1,6 @@
 //
 //  RequestsViewController.swift
-//  JavaHub
+//  BlackCat
 //
 //  Created by Marcos Contente on 08/12/16.
 //  Copyright © 2016 Marcos Contente. All rights reserved.

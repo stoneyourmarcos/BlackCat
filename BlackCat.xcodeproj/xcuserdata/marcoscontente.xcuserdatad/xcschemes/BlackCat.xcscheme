@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD08EF951DF5C0B2006B0DB3"
-               BuildableName = "JavaHub.app"
-               BlueprintName = "JavaHub"
-               ReferencedContainer = "container:JavaHub.xcodeproj">
+               BuildableName = "BlackCat.app"
+               BlueprintName = "BlackCat"
+               ReferencedContainer = "container:BlackCat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BD08EFA91DF5C0B2006B0DB3"
-               BuildableName = "JavaHubTests.xctest"
-               BlueprintName = "JavaHubTests"
-               ReferencedContainer = "container:JavaHub.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BD08EFB41DF5C0B2006B0DB3"
-               BuildableName = "JavaHubUITests.xctest"
-               BlueprintName = "JavaHubUITests"
-               ReferencedContainer = "container:JavaHub.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD08EF951DF5C0B2006B0DB3"
-            BuildableName = "JavaHub.app"
-            BlueprintName = "JavaHub"
-            ReferencedContainer = "container:JavaHub.xcodeproj">
+            BuildableName = "BlackCat.app"
+            BlueprintName = "BlackCat"
+            ReferencedContainer = "container:BlackCat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD08EF951DF5C0B2006B0DB3"
-            BuildableName = "JavaHub.app"
-            BlueprintName = "JavaHub"
-            ReferencedContainer = "container:JavaHub.xcodeproj">
+            BuildableName = "BlackCat.app"
+            BlueprintName = "BlackCat"
+            ReferencedContainer = "container:BlackCat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD08EF951DF5C0B2006B0DB3"
-            BuildableName = "JavaHub.app"
-            BlueprintName = "JavaHub"
-            ReferencedContainer = "container:JavaHub.xcodeproj">
+            BuildableName = "BlackCat.app"
+            BlueprintName = "BlackCat"
+            ReferencedContainer = "container:BlackCat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

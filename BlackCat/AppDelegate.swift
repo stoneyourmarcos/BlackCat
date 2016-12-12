@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  JavaHub
+//  BlackCat
 //
 //  Created by Marcos Contente on 05/12/16.
 //  Copyright © 2016 Marcos Contente. All rights reserved.

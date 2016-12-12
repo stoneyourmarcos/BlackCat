@@ -7,81 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		544199C5559158178236F3DD /* Pods_JavaHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52BACC525829340F17A1AC6 /* Pods_JavaHub.framework */; };
-		91AD571368CBAF3AC9BAE057 /* Pods_JavaHubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D17E8A4603E18755E2FF09 /* Pods_JavaHubUITests.framework */; };
-		B6334C7D15A743D992EF16A8 /* Pods_JavaHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940CC4068BA76506E4480EA /* Pods_JavaHubTests.framework */; };
+		544199C5559158178236F3DD /* Pods_JavaHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52BACC525829340F17A1AC6 /* Pods_JavaHub.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BDC6746E1DFEEA430099C20F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674581DFEEA430099C20F /* AppDelegate.swift */; };
-		BDC6746F1DFEEA430099C20F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674581DFEEA430099C20F /* AppDelegate.swift */; };
-		BDC674701DFEEA430099C20F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674581DFEEA430099C20F /* AppDelegate.swift */; };
 		BDC674711DFEEA430099C20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC674591DFEEA430099C20F /* Assets.xcassets */; };
-		BDC674721DFEEA430099C20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC674591DFEEA430099C20F /* Assets.xcassets */; };
-		BDC674731DFEEA430099C20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC674591DFEEA430099C20F /* Assets.xcassets */; };
 		BDC674741DFEEA430099C20F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6745A1DFEEA430099C20F /* LaunchScreen.storyboard */; };
-		BDC674751DFEEA430099C20F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6745A1DFEEA430099C20F /* LaunchScreen.storyboard */; };
-		BDC674761DFEEA430099C20F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6745A1DFEEA430099C20F /* LaunchScreen.storyboard */; };
 		BDC674771DFEEA430099C20F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6745C1DFEEA430099C20F /* Main.storyboard */; };
-		BDC674781DFEEA430099C20F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6745C1DFEEA430099C20F /* Main.storyboard */; };
-		BDC674791DFEEA430099C20F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6745C1DFEEA430099C20F /* Main.storyboard */; };
 		BDC6747A1DFEEA430099C20F /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674601DFEEA430099C20F /* RepositoryCell.swift */; };
-		BDC6747B1DFEEA430099C20F /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674601DFEEA430099C20F /* RepositoryCell.swift */; };
-		BDC6747C1DFEEA430099C20F /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674601DFEEA430099C20F /* RepositoryCell.swift */; };
 		BDC6747D1DFEEA430099C20F /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674611DFEEA430099C20F /* RepositoryViewController.swift */; };
-		BDC6747E1DFEEA430099C20F /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674611DFEEA430099C20F /* RepositoryViewController.swift */; };
-		BDC6747F1DFEEA430099C20F /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674611DFEEA430099C20F /* RepositoryViewController.swift */; };
 		BDC674801DFEEA430099C20F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674631DFEEA430099C20F /* Repository.swift */; };
-		BDC674811DFEEA430099C20F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674631DFEEA430099C20F /* Repository.swift */; };
-		BDC674821DFEEA430099C20F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674631DFEEA430099C20F /* Repository.swift */; };
 		BDC674831DFEEA430099C20F /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674641DFEEA430099C20F /* Requests.swift */; };
-		BDC674841DFEEA430099C20F /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674641DFEEA430099C20F /* Requests.swift */; };
-		BDC674851DFEEA430099C20F /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674641DFEEA430099C20F /* Requests.swift */; };
 		BDC674861DFEEA430099C20F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674661DFEEA430099C20F /* APIManager.swift */; };
-		BDC674871DFEEA430099C20F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674661DFEEA430099C20F /* APIManager.swift */; };
-		BDC674881DFEEA430099C20F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674661DFEEA430099C20F /* APIManager.swift */; };
 		BDC674891DFEEA430099C20F /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674671DFEEA430099C20F /* APIProvider.swift */; };
-		BDC6748A1DFEEA430099C20F /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674671DFEEA430099C20F /* APIProvider.swift */; };
-		BDC6748B1DFEEA430099C20F /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674671DFEEA430099C20F /* APIProvider.swift */; };
 		BDC6748C1DFEEA430099C20F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674681DFEEA430099C20F /* NetworkManager.swift */; };
-		BDC6748D1DFEEA430099C20F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674681DFEEA430099C20F /* NetworkManager.swift */; };
-		BDC6748E1DFEEA430099C20F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674681DFEEA430099C20F /* NetworkManager.swift */; };
-		BDC6748F1DFEEA430099C20F /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6746A1DFEEA430099C20F /* RequestsCell.swift */; };
-		BDC674901DFEEA430099C20F /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6746A1DFEEA430099C20F /* RequestsCell.swift */; };
-		BDC674911DFEEA430099C20F /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6746A1DFEEA430099C20F /* RequestsCell.swift */; };
-		BDC674921DFEEA430099C20F /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6746B1DFEEA430099C20F /* RequestsViewController.swift */; };
-		BDC674931DFEEA430099C20F /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6746B1DFEEA430099C20F /* RequestsViewController.swift */; };
-		BDC674941DFEEA430099C20F /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6746B1DFEEA430099C20F /* RequestsViewController.swift */; };
-		BDC674951DFEEA430099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC6746D1DFEEA430099C20F /* Info.plist */; };
-		BDC674961DFEEA430099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC6746D1DFEEA430099C20F /* Info.plist */; };
-		BDC674971DFEEA430099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC6746D1DFEEA430099C20F /* Info.plist */; };
-		BDC6749B1DFEEA620099C20F /* BlackCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674991DFEEA620099C20F /* BlackCatTests.swift */; };
-		BDC6749C1DFEEA620099C20F /* BlackCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674991DFEEA620099C20F /* BlackCatTests.swift */; };
-		BDC6749D1DFEEA620099C20F /* BlackCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674991DFEEA620099C20F /* BlackCatTests.swift */; };
-		BDC6749E1DFEEA620099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC6749A1DFEEA620099C20F /* Info.plist */; };
-		BDC6749F1DFEEA620099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC6749A1DFEEA620099C20F /* Info.plist */; };
-		BDC674A01DFEEA620099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC6749A1DFEEA620099C20F /* Info.plist */; };
-		BDC674A41DFEEA670099C20F /* BlackCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674A21DFEEA670099C20F /* BlackCatUITests.swift */; };
-		BDC674A51DFEEA670099C20F /* BlackCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674A21DFEEA670099C20F /* BlackCatUITests.swift */; };
-		BDC674A61DFEEA670099C20F /* BlackCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674A21DFEEA670099C20F /* BlackCatUITests.swift */; };
-		BDC674A71DFEEA670099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC674A31DFEEA670099C20F /* Info.plist */; };
-		BDC674A81DFEEA670099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC674A31DFEEA670099C20F /* Info.plist */; };
-		BDC674A91DFEEA670099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC674A31DFEEA670099C20F /* Info.plist */; };
+		BDC674AD1DFEEC7B0099C20F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC674AC1DFEEC7B0099C20F /* Default-568h@2x.png */; };
+		BDC674B11DFEECA90099C20F /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674AF1DFEECA90099C20F /* RequestsCell.swift */; };
+		BDC674B21DFEECA90099C20F /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674B01DFEECA90099C20F /* RequestsViewController.swift */; };
+		BDC674B71DFF0D4E0099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC674B61DFF0D4E0099C20F /* Info.plist */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BD08EFAB1DF5C0B2006B0DB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD08EF8E1DF5C0B2006B0DB3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BD08EF951DF5C0B2006B0DB3;
-			remoteInfo = JavaHub;
-		};
-		BD08EFB61DF5C0B2006B0DB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD08EF8E1DF5C0B2006B0DB3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BD08EF951DF5C0B2006B0DB3;
-			remoteInfo = JavaHub;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		194E9D1A58AFE9838F0C167E /* Pods-JavaHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHubTests/Pods-JavaHubTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,9 +32,7 @@
 		7EB268527ADB8D01750C971B /* Pods-JavaHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHub/Pods-JavaHub.debug.xcconfig"; sourceTree = "<group>"; };
 		9447BCD9511DAB97F69D7D79 /* Pods-JavaHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHubUITests/Pods-JavaHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B940CC4068BA76506E4480EA /* Pods_JavaHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavaHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD08EF961DF5C0B2006B0DB3 /* JavaHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD08EFAA1DF5C0B2006B0DB3 /* JavaHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD08EFB51DF5C0B2006B0DB3 /* JavaHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08EF961DF5C0B2006B0DB3 /* BlackCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC674581DFEEA430099C20F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC674591DFEEA430099C20F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDC6745B1DFEEA430099C20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,13 +44,10 @@
 		BDC674661DFEEA430099C20F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		BDC674671DFEEA430099C20F /* APIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 		BDC674681DFEEA430099C20F /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		BDC6746A1DFEEA430099C20F /* RequestsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsCell.swift; sourceTree = "<group>"; };
-		BDC6746B1DFEEA430099C20F /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
-		BDC6746D1DFEEA430099C20F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDC674991DFEEA620099C20F /* BlackCatTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackCatTests.swift; sourceTree = "<group>"; };
-		BDC6749A1DFEEA620099C20F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDC674A21DFEEA670099C20F /* BlackCatUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackCatUITests.swift; sourceTree = "<group>"; };
-		BDC674A31DFEEA670099C20F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC674AC1DFEEC7B0099C20F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BDC674AF1DFEECA90099C20F /* RequestsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsCell.swift; sourceTree = "<group>"; };
+		BDC674B01DFEECA90099C20F /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		BDC674B61DFF0D4E0099C20F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BlackCat/Info.plist; sourceTree = SOURCE_ROOT; };
 		C0987E3EA8677CD90BA5EFD6 /* Pods-JavaHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHubUITests/Pods-JavaHubUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D52BACC525829340F17A1AC6 /* Pods_JavaHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavaHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39D3EC621D329EC5D548EE1 /* Pods-JavaHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHub/Pods-JavaHub.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,31 +62,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD08EFA71DF5C0B2006B0DB3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6334C7D15A743D992EF16A8 /* Pods_JavaHubTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD08EFB21DF5C0B2006B0DB3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91AD571368CBAF3AC9BAE057 /* Pods_JavaHubUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		BD08EF8D1DF5C0B2006B0DB3 = {
 			isa = PBXGroup;
 			children = (
+				BDC674AC1DFEEC7B0099C20F /* Default-568h@2x.png */,
 				BDC674571DFEEA430099C20F /* BlackCat */,
-				BDC674981DFEEA620099C20F /* BlackCatTests */,
-				BDC674A11DFEEA670099C20F /* BlackCatUITests */,
 				EF9CB021C96B549925A14B21 /* Frameworks */,
 				E722304AA9747B35F2997BAA /* Pods */,
 				BD08EF971DF5C0B2006B0DB3 /* Products */,
@@ -159,9 +79,7 @@
 		BD08EF971DF5C0B2006B0DB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD08EF961DF5C0B2006B0DB3 /* JavaHub.app */,
-				BD08EFAA1DF5C0B2006B0DB3 /* JavaHubTests.xctest */,
-				BD08EFB51DF5C0B2006B0DB3 /* JavaHubUITests.xctest */,
+				BD08EF961DF5C0B2006B0DB3 /* BlackCat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +93,6 @@
 				BDC6745C1DFEEA430099C20F /* Main.storyboard */,
 				BDC674621DFEEA430099C20F /* Models */,
 				BDC674651DFEEA430099C20F /* Network */,
-				BDC674691DFEEA430099C20F /* PullRequestsList */,
 				BDC6746C1DFEEA430099C20F /* SupportingFiles */,
 			);
 			path = BlackCat;
@@ -184,6 +101,7 @@
 		BDC6745E1DFEEA430099C20F /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				BDC674AE1DFEECA90099C20F /* PullRequestsList */,
 				BDC6745F1DFEEA430099C20F /* RepositoriesList */,
 			);
 			path = Features;
@@ -217,40 +135,22 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		BDC674691DFEEA430099C20F /* PullRequestsList */ = {
-			isa = PBXGroup;
-			children = (
-				BDC6746A1DFEEA430099C20F /* RequestsCell.swift */,
-				BDC6746B1DFEEA430099C20F /* RequestsViewController.swift */,
-			);
-			path = PullRequestsList;
-			sourceTree = "<group>";
-		};
 		BDC6746C1DFEEA430099C20F /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				BDC674B61DFF0D4E0099C20F /* Info.plist */,
 				BDC6745A1DFEEA430099C20F /* LaunchScreen.storyboard */,
-				BDC6746D1DFEEA430099C20F /* Info.plist */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		BDC674981DFEEA620099C20F /* BlackCatTests */ = {
+		BDC674AE1DFEECA90099C20F /* PullRequestsList */ = {
 			isa = PBXGroup;
 			children = (
-				BDC674991DFEEA620099C20F /* BlackCatTests.swift */,
-				BDC6749A1DFEEA620099C20F /* Info.plist */,
+				BDC674AF1DFEECA90099C20F /* RequestsCell.swift */,
+				BDC674B01DFEECA90099C20F /* RequestsViewController.swift */,
 			);
-			path = BlackCatTests;
-			sourceTree = "<group>";
-		};
-		BDC674A11DFEEA670099C20F /* BlackCatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BDC674A21DFEEA670099C20F /* BlackCatUITests.swift */,
-				BDC674A31DFEEA670099C20F /* Info.plist */,
-			);
-			path = BlackCatUITests;
+			path = PullRequestsList;
 			sourceTree = "<group>";
 		};
 		E722304AA9747B35F2997BAA /* Pods */ = {
@@ -279,9 +179,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD08EF951DF5C0B2006B0DB3 /* JavaHub */ = {
+		BD08EF951DF5C0B2006B0DB3 /* BlackCat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD08EFBE1DF5C0B2006B0DB3 /* Build configuration list for PBXNativeTarget "JavaHub" */;
+			buildConfigurationList = BD08EFBE1DF5C0B2006B0DB3 /* Build configuration list for PBXNativeTarget "BlackCat" */;
 			buildPhases = (
 				4AA483AAFB4CC7615D9C1EF7 /* [CP] Check Pods Manifest.lock */,
 				BD08EF921DF5C0B2006B0DB3 /* Sources */,
@@ -294,52 +194,10 @@
 			);
 			dependencies = (
 			);
-			name = JavaHub;
+			name = BlackCat;
 			productName = JavaHub;
-			productReference = BD08EF961DF5C0B2006B0DB3 /* JavaHub.app */;
+			productReference = BD08EF961DF5C0B2006B0DB3 /* BlackCat.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BD08EFA91DF5C0B2006B0DB3 /* JavaHubTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD08EFC11DF5C0B2006B0DB3 /* Build configuration list for PBXNativeTarget "JavaHubTests" */;
-			buildPhases = (
-				1E3A0C81D3E10E4C251E661D /* [CP] Check Pods Manifest.lock */,
-				BD08EFA61DF5C0B2006B0DB3 /* Sources */,
-				BD08EFA71DF5C0B2006B0DB3 /* Frameworks */,
-				BD08EFA81DF5C0B2006B0DB3 /* Resources */,
-				3F49290219B9011304C9327B /* [CP] Embed Pods Frameworks */,
-				6CA7C149B27FA1BACC765AA7 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD08EFAC1DF5C0B2006B0DB3 /* PBXTargetDependency */,
-			);
-			name = JavaHubTests;
-			productName = JavaHubTests;
-			productReference = BD08EFAA1DF5C0B2006B0DB3 /* JavaHubTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BD08EFB41DF5C0B2006B0DB3 /* JavaHubUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD08EFC41DF5C0B2006B0DB3 /* Build configuration list for PBXNativeTarget "JavaHubUITests" */;
-			buildPhases = (
-				053F0177F48C1C2DD4A6FDD4 /* [CP] Check Pods Manifest.lock */,
-				BD08EFB11DF5C0B2006B0DB3 /* Sources */,
-				BD08EFB21DF5C0B2006B0DB3 /* Frameworks */,
-				BD08EFB31DF5C0B2006B0DB3 /* Resources */,
-				DE91AFC0BC5859CE574F05BA /* [CP] Embed Pods Frameworks */,
-				71B81FC1EC409699F42415C8 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD08EFB71DF5C0B2006B0DB3 /* PBXTargetDependency */,
-			);
-			name = JavaHubUITests;
-			productName = JavaHubUITests;
-			productReference = BD08EFB51DF5C0B2006B0DB3 /* JavaHubUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -357,20 +215,6 @@
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
-					BD08EFA91DF5C0B2006B0DB3 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = JF4H7Z8C5S;
-						LastSwiftMigration = 0810;
-						ProvisioningStyle = Automatic;
-						TestTargetID = BD08EF951DF5C0B2006B0DB3;
-					};
-					BD08EFB41DF5C0B2006B0DB3 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = JF4H7Z8C5S;
-						LastSwiftMigration = 0810;
-						ProvisioningStyle = Automatic;
-						TestTargetID = BD08EF951DF5C0B2006B0DB3;
-					};
 				};
 			};
 			buildConfigurationList = BD08EF911DF5C0B2006B0DB3 /* Build configuration list for PBXProject "BlackCat" */;
@@ -386,9 +230,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD08EF951DF5C0B2006B0DB3 /* JavaHub */,
-				BD08EFA91DF5C0B2006B0DB3 /* JavaHubTests */,
-				BD08EFB41DF5C0B2006B0DB3 /* JavaHubUITests */,
+				BD08EF951DF5C0B2006B0DB3 /* BlackCat */,
 			);
 		};
 /* End PBXProject section */
@@ -398,74 +240,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDC674951DFEEA430099C20F /* Info.plist in Resources */,
 				BDC674771DFEEA430099C20F /* Main.storyboard in Resources */,
-				BDC674A71DFEEA670099C20F /* Info.plist in Resources */,
 				BDC674711DFEEA430099C20F /* Assets.xcassets in Resources */,
-				BDC6749E1DFEEA620099C20F /* Info.plist in Resources */,
+				BDC674AD1DFEEC7B0099C20F /* Default-568h@2x.png in Resources */,
+				BDC674B71DFF0D4E0099C20F /* Info.plist in Resources */,
 				BDC674741DFEEA430099C20F /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD08EFA81DF5C0B2006B0DB3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDC674961DFEEA430099C20F /* Info.plist in Resources */,
-				BDC674781DFEEA430099C20F /* Main.storyboard in Resources */,
-				BDC674A81DFEEA670099C20F /* Info.plist in Resources */,
-				BDC674721DFEEA430099C20F /* Assets.xcassets in Resources */,
-				BDC6749F1DFEEA620099C20F /* Info.plist in Resources */,
-				BDC674751DFEEA430099C20F /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD08EFB31DF5C0B2006B0DB3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDC674971DFEEA430099C20F /* Info.plist in Resources */,
-				BDC674791DFEEA430099C20F /* Main.storyboard in Resources */,
-				BDC674A91DFEEA670099C20F /* Info.plist in Resources */,
-				BDC674731DFEEA430099C20F /* Assets.xcassets in Resources */,
-				BDC674A01DFEEA620099C20F /* Info.plist in Resources */,
-				BDC674761DFEEA430099C20F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		053F0177F48C1C2DD4A6FDD4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		1E3A0C81D3E10E4C251E661D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		3DAB1EA330A1FEC167EFEC88 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -481,21 +266,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JavaHub/Pods-JavaHub-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3F49290219B9011304C9327B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JavaHubTests/Pods-JavaHubTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4AA483AAFB4CC7615D9C1EF7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -509,51 +279,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6CA7C149B27FA1BACC765AA7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JavaHubTests/Pods-JavaHubTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		71B81FC1EC409699F42415C8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JavaHubUITests/Pods-JavaHubUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE91AFC0BC5859CE574F05BA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JavaHubUITests/Pods-JavaHubUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E565C8B9904236D281903A40 /* [CP] Embed Pods Frameworks */ = {
@@ -578,73 +303,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDC674921DFEEA430099C20F /* RequestsViewController.swift in Sources */,
+				BDC674B11DFEECA90099C20F /* RequestsCell.swift in Sources */,
 				BDC674861DFEEA430099C20F /* APIManager.swift in Sources */,
-				BDC674A41DFEEA670099C20F /* BlackCatUITests.swift in Sources */,
 				BDC6746E1DFEEA430099C20F /* AppDelegate.swift in Sources */,
-				BDC6749B1DFEEA620099C20F /* BlackCatTests.swift in Sources */,
 				BDC674891DFEEA430099C20F /* APIProvider.swift in Sources */,
 				BDC6747D1DFEEA430099C20F /* RepositoryViewController.swift in Sources */,
 				BDC6748C1DFEEA430099C20F /* NetworkManager.swift in Sources */,
 				BDC6747A1DFEEA430099C20F /* RepositoryCell.swift in Sources */,
-				BDC6748F1DFEEA430099C20F /* RequestsCell.swift in Sources */,
 				BDC674831DFEEA430099C20F /* Requests.swift in Sources */,
+				BDC674B21DFEECA90099C20F /* RequestsViewController.swift in Sources */,
 				BDC674801DFEEA430099C20F /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD08EFA61DF5C0B2006B0DB3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDC674931DFEEA430099C20F /* RequestsViewController.swift in Sources */,
-				BDC674871DFEEA430099C20F /* APIManager.swift in Sources */,
-				BDC674A51DFEEA670099C20F /* BlackCatUITests.swift in Sources */,
-				BDC6746F1DFEEA430099C20F /* AppDelegate.swift in Sources */,
-				BDC6749C1DFEEA620099C20F /* BlackCatTests.swift in Sources */,
-				BDC6748A1DFEEA430099C20F /* APIProvider.swift in Sources */,
-				BDC6747E1DFEEA430099C20F /* RepositoryViewController.swift in Sources */,
-				BDC6748D1DFEEA430099C20F /* NetworkManager.swift in Sources */,
-				BDC6747B1DFEEA430099C20F /* RepositoryCell.swift in Sources */,
-				BDC674901DFEEA430099C20F /* RequestsCell.swift in Sources */,
-				BDC674841DFEEA430099C20F /* Requests.swift in Sources */,
-				BDC674811DFEEA430099C20F /* Repository.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD08EFB11DF5C0B2006B0DB3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDC674941DFEEA430099C20F /* RequestsViewController.swift in Sources */,
-				BDC674881DFEEA430099C20F /* APIManager.swift in Sources */,
-				BDC674A61DFEEA670099C20F /* BlackCatUITests.swift in Sources */,
-				BDC674701DFEEA430099C20F /* AppDelegate.swift in Sources */,
-				BDC6749D1DFEEA620099C20F /* BlackCatTests.swift in Sources */,
-				BDC6748B1DFEEA430099C20F /* APIProvider.swift in Sources */,
-				BDC6747F1DFEEA430099C20F /* RepositoryViewController.swift in Sources */,
-				BDC6748E1DFEEA430099C20F /* NetworkManager.swift in Sources */,
-				BDC6747C1DFEEA430099C20F /* RepositoryCell.swift in Sources */,
-				BDC674911DFEEA430099C20F /* RequestsCell.swift in Sources */,
-				BDC674851DFEEA430099C20F /* Requests.swift in Sources */,
-				BDC674821DFEEA430099C20F /* Repository.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BD08EFAC1DF5C0B2006B0DB3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BD08EF951DF5C0B2006B0DB3 /* JavaHub */;
-			targetProxy = BD08EFAB1DF5C0B2006B0DB3 /* PBXContainerItemProxy */;
-		};
-		BD08EFB71DF5C0B2006B0DB3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BD08EF951DF5C0B2006B0DB3 /* JavaHub */;
-			targetProxy = BD08EFB61DF5C0B2006B0DB3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BDC6745A1DFEEA430099C20F /* LaunchScreen.storyboard */ = {
@@ -685,6 +357,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -735,6 +408,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -766,9 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JF4H7Z8C5S;
-				INFOPLIST_FILE = JavaHub/Info.plist;
+				INFOPLIST_FILE = BlackCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.JavaHub;
+				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.BlackCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -780,73 +454,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JF4H7Z8C5S;
-				INFOPLIST_FILE = JavaHub/Info.plist;
+				INFOPLIST_FILE = BlackCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.JavaHub;
+				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.BlackCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		BD08EFC21DF5C0B2006B0DB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57497BCA1A6A5D8F01684A88 /* Pods-JavaHubTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = JF4H7Z8C5S;
-				INFOPLIST_FILE = JavaHubTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.JavaHubTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaHub.app/JavaHub";
-			};
-			name = Debug;
-		};
-		BD08EFC31DF5C0B2006B0DB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 194E9D1A58AFE9838F0C167E /* Pods-JavaHubTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = JF4H7Z8C5S;
-				INFOPLIST_FILE = JavaHubTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.JavaHubTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaHub.app/JavaHub";
-			};
-			name = Release;
-		};
-		BD08EFC51DF5C0B2006B0DB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9447BCD9511DAB97F69D7D79 /* Pods-JavaHubUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = JF4H7Z8C5S;
-				INFOPLIST_FILE = JavaHubUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.JavaHubUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = JavaHub;
-			};
-			name = Debug;
-		};
-		BD08EFC61DF5C0B2006B0DB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0987E3EA8677CD90BA5EFD6 /* Pods-JavaHubUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = JF4H7Z8C5S;
-				INFOPLIST_FILE = JavaHubUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.JavaHubUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = JavaHub;
 			};
 			name = Release;
 		};
@@ -862,29 +474,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD08EFBE1DF5C0B2006B0DB3 /* Build configuration list for PBXNativeTarget "JavaHub" */ = {
+		BD08EFBE1DF5C0B2006B0DB3 /* Build configuration list for PBXNativeTarget "BlackCat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD08EFBF1DF5C0B2006B0DB3 /* Debug */,
 				BD08EFC01DF5C0B2006B0DB3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD08EFC11DF5C0B2006B0DB3 /* Build configuration list for PBXNativeTarget "JavaHubTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD08EFC21DF5C0B2006B0DB3 /* Debug */,
-				BD08EFC31DF5C0B2006B0DB3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD08EFC41DF5C0B2006B0DB3 /* Build configuration list for PBXNativeTarget "JavaHubUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD08EFC51DF5C0B2006B0DB3 /* Debug */,
-				BD08EFC61DF5C0B2006B0DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

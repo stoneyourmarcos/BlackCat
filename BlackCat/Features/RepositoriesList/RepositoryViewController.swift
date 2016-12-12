@@ -1,6 +1,6 @@
 //
 //  RepoViewController.swift
-//  JavaHub
+//  BlackCat
 //
 //  Created by Marcos Contente on 05/12/16.
 //  Copyright © 2016 Marcos Contente. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RepoViewController: UITableViewController {
+class RepositoryViewController: UITableViewController {
     
     fileprivate var repositories: [Repository] = [] {
         didSet {
@@ -30,14 +30,14 @@ class RepoViewController: UITableViewController {
 
 // MARK - TableView Data Source
 
-extension RepoViewController {
+extension RepositoryViewController {
     override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return repositories.count
     }
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "RepoCell", for: indexPath) as! RepoCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RepoCell", for: indexPath) as! RepositoryCell
         
         let repository = repositories[indexPath.row]
         
@@ -51,7 +51,7 @@ extension RepoViewController {
     }
 }
 
-extension RepoViewController {
+extension RepositoryViewController {
     
     public func setupRepositories(_ repository: Repository, closure: @escaping () -> Void) {
 //        RepoCell.repoNameLbl.text = repository.name
@@ -80,7 +80,7 @@ extension RepoViewController {
 
 }
 
-extension RepoViewController {
+extension RepositoryViewController {
 //    
 //    fileprivate func selectRequest(_ repository: Requests) {
 //        print("selecting Request \(repository.repository)")
