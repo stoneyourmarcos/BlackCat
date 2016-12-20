@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PromiseKit
 
 class RepositoryViewController: UITableViewController {
     
@@ -18,7 +19,6 @@ class RepositoryViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-//        loadSampleRepos()
         APIManager.fetchJavaRepositories().then { repositories -> Void in
             self.repositories = repositories
         }.catch { error in
@@ -41,57 +41,18 @@ extension RepositoryViewController {
         
         let repository = repositories[indexPath.row]
         
-        cell.repoNameLbl.text = repository.name
-        cell.repoDescriptionLbl.text = repository.description
-        cell.repoForksCountLbl.text = String(describing: repository.forks!)
-        cell.repoStarsCountLbl.text = String(describing: repository.stars!)
-        cell.ownerLoginLbl.text = repository.ownerLogin
+        cell.configCell(forRepository: repository)
         
         return cell
     }
-}
-
-extension RepositoryViewController {
     
-    public func setupRepositories(_ repository: Repository, closure: @escaping () -> Void) {
-//        RepoCell.repoNameLbl.text = repository.name
-//        RepoCell.repoDescriptionLbl.text = repository.description
-//        RepoCell.repoForksCountLbl.text = String(describing: repository.forks!)
-//        repoStarsCountLbl.text = String(describing: repository.stars!)
-//        ownerLoginLbl.text = repository.ownerLogin
-//        if let url = URL(string: repository.ownerAvatar!) {
-//            if let data = NSData(contentsOf: url) {
-//                cell.imageView?.image = UIImage(data: data as Data)
-//            }
-//        }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        if let destination = segue.destination as? PullRequestsViewController {
+            let owner = repositories[indexPath.row].ownerLogin
+            let repository = repositories[indexPath.row].name
+            destination.ownerPullRequest = owner
+            destination.repositoryPullRequest = repository
+        }
     }
-    
-    func loadSampleRepos() {
-        let repo1 = Repository(name: "java", description: "the cat", owner: "house", ownerLogin: "bong", ownerAvatar: nil, stars: 55, forks: 43)
-        
-        let repo2 = Repository(name: "seth", description: "the cat", owner: "house", ownerLogin: "bong", ownerAvatar: nil, stars: 55, forks: 43)
-        
-        let repo3 = Repository(name: "shanti", description: "the cat", owner: "house", ownerLogin: "bong", ownerAvatar: nil, stars: 55, forks: 43)
-        
-        let repo4 = Repository(name: "neftis", description: "the cat", owner: "house", ownerLogin: "bong", ownerAvatar: nil, stars: 55, forks: 43)
-        
-        repositories = [repo1, repo2, repo3, repo4]
-    }
-
 }
-
-extension RepositoryViewController {
-//    
-//    fileprivate func selectRequest(_ repository: Requests) {
-//        print("selecting Request \(repository.repository)")
-//        APIManager.acceptSchedule(schedule).then { () -> Void in
-//            log.info("Accepted")
-//            self.fetchingData = false
-//            }.catch { error in
-//                log.error(error)
-//                self.fetchingData = false
-//        }
-//    }
-    
-}
-

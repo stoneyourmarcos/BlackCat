@@ -1,0 +1,6 @@
+framework module Pods_BlackCat {
+  umbrella header "Pods-BlackCat-umbrella.h"
+
+  export *
+  module * { export * }
+}

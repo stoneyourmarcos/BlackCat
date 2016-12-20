@@ -17,7 +17,7 @@ class RepositoryCell: UITableViewCell {
     @IBOutlet weak var repoForksCountLbl: UILabel!
     @IBOutlet weak var repoStarsCountLbl: UILabel!
     @IBOutlet weak var ownerLoginLbl: UILabel!
-    @IBOutlet weak var ownerAvatarLbl: UIImageView!
+    @IBOutlet weak var ownerAvatarImg: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -29,3 +29,17 @@ class RepositoryCell: UITableViewCell {
     
 }
 
+extension RepositoryCell {
+    
+    func configCell(forRepository repository: Repository) {
+        
+        repoNameLbl.text = repository.name
+        repoDescriptionLbl.text = repository.description
+        repoForksCountLbl.text = String(describing: repository.forks!)
+        repoStarsCountLbl.text = String(describing: repository.stars!)
+        ownerLoginLbl.text = ("\(repository.ownerLogin)")
+        ownerAvatarImg.setImageFromURl(stringImageUrl: ("\(repository.ownerAvatar)"))
+
+    }
+    
+}

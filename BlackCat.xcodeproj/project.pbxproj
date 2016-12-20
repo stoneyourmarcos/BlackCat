@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		544199C5559158178236F3DD /* Pods_JavaHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52BACC525829340F17A1AC6 /* Pods_JavaHub.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		836C6582D0AA512C1B1B4CC9 /* Pods_BlackCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087B6DFFA1DA60BEB26CBC28 /* Pods_BlackCat.framework */; };
+		BD64F1731E085C5E001317E9 /* ImageDownloadFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64F1721E085C5E001317E9 /* ImageDownloadFrom.swift */; };
 		BDC6746E1DFEEA430099C20F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674581DFEEA430099C20F /* AppDelegate.swift */; };
 		BDC674711DFEEA430099C20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC674591DFEEA430099C20F /* Assets.xcassets */; };
 		BDC674741DFEEA430099C20F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6745A1DFEEA430099C20F /* LaunchScreen.storyboard */; };
@@ -15,24 +17,28 @@
 		BDC6747A1DFEEA430099C20F /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674601DFEEA430099C20F /* RepositoryCell.swift */; };
 		BDC6747D1DFEEA430099C20F /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674611DFEEA430099C20F /* RepositoryViewController.swift */; };
 		BDC674801DFEEA430099C20F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674631DFEEA430099C20F /* Repository.swift */; };
-		BDC674831DFEEA430099C20F /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674641DFEEA430099C20F /* Requests.swift */; };
+		BDC674831DFEEA430099C20F /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674641DFEEA430099C20F /* PullRequest.swift */; };
 		BDC674861DFEEA430099C20F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674661DFEEA430099C20F /* APIManager.swift */; };
 		BDC674891DFEEA430099C20F /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674671DFEEA430099C20F /* APIProvider.swift */; };
-		BDC6748C1DFEEA430099C20F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674681DFEEA430099C20F /* NetworkManager.swift */; };
+		BDC6748C1DFEEA430099C20F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674681DFEEA430099C20F /* WebService.swift */; };
 		BDC674AD1DFEEC7B0099C20F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC674AC1DFEEC7B0099C20F /* Default-568h@2x.png */; };
-		BDC674B11DFEECA90099C20F /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674AF1DFEECA90099C20F /* RequestsCell.swift */; };
-		BDC674B21DFEECA90099C20F /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674B01DFEECA90099C20F /* RequestsViewController.swift */; };
+		BDC674B11DFEECA90099C20F /* PullRequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674AF1DFEECA90099C20F /* PullRequestsCell.swift */; };
+		BDC674B21DFEECA90099C20F /* PullRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674B01DFEECA90099C20F /* PullRequestsViewController.swift */; };
 		BDC674B71DFF0D4E0099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC674B61DFF0D4E0099C20F /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		087B6DFFA1DA60BEB26CBC28 /* Pods_BlackCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		194E9D1A58AFE9838F0C167E /* Pods-JavaHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHubTests/Pods-JavaHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		42C39BFCD65B5D6595CBB055 /* Pods-BlackCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackCat.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlackCat/Pods-BlackCat.release.xcconfig"; sourceTree = "<group>"; };
 		57497BCA1A6A5D8F01684A88 /* Pods-JavaHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHubTests/Pods-JavaHubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		58D17E8A4603E18755E2FF09 /* Pods_JavaHubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavaHubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EE667C92681F3E364B75A1 /* Pods-BlackCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackCat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackCat/Pods-BlackCat.debug.xcconfig"; sourceTree = "<group>"; };
 		7EB268527ADB8D01750C971B /* Pods-JavaHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHub/Pods-JavaHub.debug.xcconfig"; sourceTree = "<group>"; };
 		9447BCD9511DAB97F69D7D79 /* Pods-JavaHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHubUITests/Pods-JavaHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B940CC4068BA76506E4480EA /* Pods_JavaHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavaHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD08EF961DF5C0B2006B0DB3 /* BlackCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD64F1721E085C5E001317E9 /* ImageDownloadFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadFrom.swift; sourceTree = "<group>"; };
 		BDC674581DFEEA430099C20F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC674591DFEEA430099C20F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDC6745B1DFEEA430099C20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,13 +46,13 @@
 		BDC674601DFEEA430099C20F /* RepositoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryCell.swift; sourceTree = "<group>"; };
 		BDC674611DFEEA430099C20F /* RepositoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryViewController.swift; sourceTree = "<group>"; };
 		BDC674631DFEEA430099C20F /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		BDC674641DFEEA430099C20F /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		BDC674641DFEEA430099C20F /* PullRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequest.swift; sourceTree = "<group>"; };
 		BDC674661DFEEA430099C20F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		BDC674671DFEEA430099C20F /* APIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
-		BDC674681DFEEA430099C20F /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BDC674681DFEEA430099C20F /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		BDC674AC1DFEEC7B0099C20F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		BDC674AF1DFEECA90099C20F /* RequestsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsCell.swift; sourceTree = "<group>"; };
-		BDC674B01DFEECA90099C20F /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		BDC674AF1DFEECA90099C20F /* PullRequestsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsCell.swift; sourceTree = "<group>"; };
+		BDC674B01DFEECA90099C20F /* PullRequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsViewController.swift; sourceTree = "<group>"; };
 		BDC674B61DFF0D4E0099C20F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BlackCat/Info.plist; sourceTree = SOURCE_ROOT; };
 		C0987E3EA8677CD90BA5EFD6 /* Pods-JavaHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHubUITests/Pods-JavaHubUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D52BACC525829340F17A1AC6 /* Pods_JavaHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavaHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				544199C5559158178236F3DD /* Pods_JavaHub.framework in Frameworks */,
+				836C6582D0AA512C1B1B4CC9 /* Pods_BlackCat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +126,9 @@
 		BDC674621DFEEA430099C20F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BD64F1721E085C5E001317E9 /* ImageDownloadFrom.swift */,
 				BDC674631DFEEA430099C20F /* Repository.swift */,
-				BDC674641DFEEA430099C20F /* Requests.swift */,
+				BDC674641DFEEA430099C20F /* PullRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -130,7 +138,7 @@
 			children = (
 				BDC674661DFEEA430099C20F /* APIManager.swift */,
 				BDC674671DFEEA430099C20F /* APIProvider.swift */,
-				BDC674681DFEEA430099C20F /* NetworkManager.swift */,
+				BDC674681DFEEA430099C20F /* WebService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -147,8 +155,8 @@
 		BDC674AE1DFEECA90099C20F /* PullRequestsList */ = {
 			isa = PBXGroup;
 			children = (
-				BDC674AF1DFEECA90099C20F /* RequestsCell.swift */,
-				BDC674B01DFEECA90099C20F /* RequestsViewController.swift */,
+				BDC674AF1DFEECA90099C20F /* PullRequestsCell.swift */,
+				BDC674B01DFEECA90099C20F /* PullRequestsViewController.swift */,
 			);
 			path = PullRequestsList;
 			sourceTree = "<group>";
@@ -162,6 +170,8 @@
 				194E9D1A58AFE9838F0C167E /* Pods-JavaHubTests.release.xcconfig */,
 				9447BCD9511DAB97F69D7D79 /* Pods-JavaHubUITests.debug.xcconfig */,
 				C0987E3EA8677CD90BA5EFD6 /* Pods-JavaHubUITests.release.xcconfig */,
+				73EE667C92681F3E364B75A1 /* Pods-BlackCat.debug.xcconfig */,
+				42C39BFCD65B5D6595CBB055 /* Pods-BlackCat.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -172,6 +182,7 @@
 				D52BACC525829340F17A1AC6 /* Pods_JavaHub.framework */,
 				B940CC4068BA76506E4480EA /* Pods_JavaHubTests.framework */,
 				58D17E8A4603E18755E2FF09 /* Pods_JavaHubUITests.framework */,
+				087B6DFFA1DA60BEB26CBC28 /* Pods_BlackCat.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -263,7 +274,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JavaHub/Pods-JavaHub-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlackCat/Pods-BlackCat-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4AA483AAFB4CC7615D9C1EF7 /* [CP] Check Pods Manifest.lock */ = {
@@ -293,7 +304,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JavaHub/Pods-JavaHub-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlackCat/Pods-BlackCat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -303,15 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDC674B11DFEECA90099C20F /* RequestsCell.swift in Sources */,
+				BDC674B11DFEECA90099C20F /* PullRequestsCell.swift in Sources */,
+				BD64F1731E085C5E001317E9 /* ImageDownloadFrom.swift in Sources */,
 				BDC674861DFEEA430099C20F /* APIManager.swift in Sources */,
 				BDC6746E1DFEEA430099C20F /* AppDelegate.swift in Sources */,
 				BDC674891DFEEA430099C20F /* APIProvider.swift in Sources */,
 				BDC6747D1DFEEA430099C20F /* RepositoryViewController.swift in Sources */,
-				BDC6748C1DFEEA430099C20F /* NetworkManager.swift in Sources */,
+				BDC6748C1DFEEA430099C20F /* WebService.swift in Sources */,
 				BDC6747A1DFEEA430099C20F /* RepositoryCell.swift in Sources */,
-				BDC674831DFEEA430099C20F /* Requests.swift in Sources */,
-				BDC674B21DFEECA90099C20F /* RequestsViewController.swift in Sources */,
+				BDC674831DFEEA430099C20F /* PullRequest.swift in Sources */,
+				BDC674B21DFEECA90099C20F /* PullRequestsViewController.swift in Sources */,
 				BDC674801DFEEA430099C20F /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +448,7 @@
 		};
 		BD08EFBF1DF5C0B2006B0DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EB268527ADB8D01750C971B /* Pods-JavaHub.debug.xcconfig */;
+			baseConfigurationReference = 73EE667C92681F3E364B75A1 /* Pods-BlackCat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JF4H7Z8C5S;
@@ -450,7 +462,7 @@
 		};
 		BD08EFC01DF5C0B2006B0DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E39D3EC621D329EC5D548EE1 /* Pods-JavaHub.release.xcconfig */;
+			baseConfigurationReference = 42C39BFCD65B5D6595CBB055 /* Pods-BlackCat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JF4H7Z8C5S;

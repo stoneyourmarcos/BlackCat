@@ -8,14 +8,13 @@
 
 import Foundation
 import Moya
-import Sugar
 
 // MARK: Provider Setup
 
-let endpointClosure = { (target: NetworkManager) -> Endpoint<NetworkManager> in
+let endpointClosure = { (target: WebService) -> Endpoint<WebService> in
     let url: String = target.baseURL.appendingPathComponent(target.path).absoluteString
-    let endpoint: Endpoint<NetworkManager> =
-        Endpoint<NetworkManager>(url: url,
+    let endpoint: Endpoint<WebService> =
+        Endpoint<WebService>(url: url,
                              sampleResponseClosure: {.networkResponse(200, target.sampleData)},
                              method: target.method,
                              parameters: target.parameters,
@@ -25,14 +24,14 @@ let endpointClosure = { (target: NetworkManager) -> Endpoint<NetworkManager> in
                             ])
     debugPrint(url)
     debugPrint(endpoint)
-    return endpoint
+    return endpoint.adding(newHTTPHeaderFields: ["Accept": "application/vnd.github.v3+json"])
 }
 
-let requestClosure = { (endpoint: Endpoint<NetworkManager>, done: MoyaProvider.RequestResultClosure) in
+let requestClosure = { (endpoint: Endpoint<WebService>, done: MoyaProvider.RequestResultClosure) in
     var request = endpoint.urlRequest! as URLRequest
     done(.success(request))
 }
 
-let apiProvider = MoyaProvider<NetworkManager>(
+let apiProvider = MoyaProvider<WebService>(
     endpointClosure: endpointClosure,
     requestClosure: requestClosure)
