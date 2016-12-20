@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class RepositoryCell: UITableViewCell {
     
@@ -38,8 +39,7 @@ extension RepositoryCell {
         repoForksCountLbl.text = String(describing: repository.forks!)
         repoStarsCountLbl.text = String(describing: repository.stars!)
         ownerLoginLbl.text = ("\(repository.ownerLogin)")
-        ownerAvatarImg.setImageFromURl(stringImageUrl: ("\(repository.ownerAvatar)"))
-
+        ownerAvatarImg.sd_setImage(with: URL(string: "\(repository.ownerAvatar)"))
     }
     
 }

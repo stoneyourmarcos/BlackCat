@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		544199C5559158178236F3DD /* Pods_JavaHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52BACC525829340F17A1AC6 /* Pods_JavaHub.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		836C6582D0AA512C1B1B4CC9 /* Pods_BlackCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087B6DFFA1DA60BEB26CBC28 /* Pods_BlackCat.framework */; };
-		BD64F1731E085C5E001317E9 /* ImageDownloadFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64F1721E085C5E001317E9 /* ImageDownloadFrom.swift */; };
+		BD9753891E09D73A0077179E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9753881E09D73A0077179E /* Extensions.swift */; };
 		BDC6746E1DFEEA430099C20F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674581DFEEA430099C20F /* AppDelegate.swift */; };
 		BDC674711DFEEA430099C20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC674591DFEEA430099C20F /* Assets.xcassets */; };
 		BDC674741DFEEA430099C20F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6745A1DFEEA430099C20F /* LaunchScreen.storyboard */; };
@@ -21,7 +21,6 @@
 		BDC674861DFEEA430099C20F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674661DFEEA430099C20F /* APIManager.swift */; };
 		BDC674891DFEEA430099C20F /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674671DFEEA430099C20F /* APIProvider.swift */; };
 		BDC6748C1DFEEA430099C20F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674681DFEEA430099C20F /* WebService.swift */; };
-		BDC674AD1DFEEC7B0099C20F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC674AC1DFEEC7B0099C20F /* Default-568h@2x.png */; };
 		BDC674B11DFEECA90099C20F /* PullRequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674AF1DFEECA90099C20F /* PullRequestsCell.swift */; };
 		BDC674B21DFEECA90099C20F /* PullRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC674B01DFEECA90099C20F /* PullRequestsViewController.swift */; };
 		BDC674B71DFF0D4E0099C20F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC674B61DFF0D4E0099C20F /* Info.plist */; };
@@ -38,7 +37,7 @@
 		9447BCD9511DAB97F69D7D79 /* Pods-JavaHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaHubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JavaHubUITests/Pods-JavaHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B940CC4068BA76506E4480EA /* Pods_JavaHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavaHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD08EF961DF5C0B2006B0DB3 /* BlackCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD64F1721E085C5E001317E9 /* ImageDownloadFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadFrom.swift; sourceTree = "<group>"; };
+		BD9753881E09D73A0077179E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BDC674581DFEEA430099C20F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC674591DFEEA430099C20F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDC6745B1DFEEA430099C20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 		BDC674661DFEEA430099C20F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		BDC674671DFEEA430099C20F /* APIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 		BDC674681DFEEA430099C20F /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		BDC674AC1DFEEC7B0099C20F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BDC674AF1DFEECA90099C20F /* PullRequestsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsCell.swift; sourceTree = "<group>"; };
 		BDC674B01DFEECA90099C20F /* PullRequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsViewController.swift; sourceTree = "<group>"; };
 		BDC674B61DFF0D4E0099C20F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BlackCat/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -75,7 +73,6 @@
 		BD08EF8D1DF5C0B2006B0DB3 = {
 			isa = PBXGroup;
 			children = (
-				BDC674AC1DFEEC7B0099C20F /* Default-568h@2x.png */,
 				BDC674571DFEEA430099C20F /* BlackCat */,
 				EF9CB021C96B549925A14B21 /* Frameworks */,
 				E722304AA9747B35F2997BAA /* Pods */,
@@ -126,7 +123,6 @@
 		BDC674621DFEEA430099C20F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BD64F1721E085C5E001317E9 /* ImageDownloadFrom.swift */,
 				BDC674631DFEEA430099C20F /* Repository.swift */,
 				BDC674641DFEEA430099C20F /* PullRequest.swift */,
 			);
@@ -146,6 +142,7 @@
 		BDC6746C1DFEEA430099C20F /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				BD9753881E09D73A0077179E /* Extensions.swift */,
 				BDC674B61DFF0D4E0099C20F /* Info.plist */,
 				BDC6745A1DFEEA430099C20F /* LaunchScreen.storyboard */,
 			);
@@ -253,7 +250,6 @@
 			files = (
 				BDC674771DFEEA430099C20F /* Main.storyboard in Resources */,
 				BDC674711DFEEA430099C20F /* Assets.xcassets in Resources */,
-				BDC674AD1DFEEC7B0099C20F /* Default-568h@2x.png in Resources */,
 				BDC674B71DFF0D4E0099C20F /* Info.plist in Resources */,
 				BDC674741DFEEA430099C20F /* LaunchScreen.storyboard in Resources */,
 			);
@@ -315,7 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDC674B11DFEECA90099C20F /* PullRequestsCell.swift in Sources */,
-				BD64F1731E085C5E001317E9 /* ImageDownloadFrom.swift in Sources */,
 				BDC674861DFEEA430099C20F /* APIManager.swift in Sources */,
 				BDC6746E1DFEEA430099C20F /* AppDelegate.swift in Sources */,
 				BDC674891DFEEA430099C20F /* APIProvider.swift in Sources */,
@@ -324,6 +319,7 @@
 				BDC6747A1DFEEA430099C20F /* RepositoryCell.swift in Sources */,
 				BDC674831DFEEA430099C20F /* PullRequest.swift in Sources */,
 				BDC674B21DFEECA90099C20F /* PullRequestsViewController.swift in Sources */,
+				BD9753891E09D73A0077179E /* Extensions.swift in Sources */,
 				BDC674801DFEEA430099C20F /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

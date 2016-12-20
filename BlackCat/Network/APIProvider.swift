@@ -22,8 +22,6 @@ let endpointClosure = { (target: WebService) -> Endpoint<WebService> in
                                 "Content-Type": "application/json",
                                 "Accept": "application/json"
                             ])
-    debugPrint(url)
-    debugPrint(endpoint)
     return endpoint.adding(newHTTPHeaderFields: ["Accept": "application/vnd.github.v3+json"])
 }
 

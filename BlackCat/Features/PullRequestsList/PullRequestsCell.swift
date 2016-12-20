@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class PullRequestCell: UITableViewCell {
     
@@ -32,8 +33,11 @@ extension PullRequestCell {
     func configCell(forPullRequest pullRequest: PullRequest) {
         requestNameLbl.text = pullRequest.title
         requestDescriptionLbl.text = pullRequest.body
-        requestPushedAtLbl.text = ("\(pullRequest.date)")
+        if let updatedDate = pullRequest.date.toDateFormatted(with: "yyyy-MM-dd'T'HH:mm:ssZ"){
+            requestPushedAtLbl.text = updatedDate.date
+        }
         ownerLoginLbl.text = ("\(pullRequest.ownerLogin)")
-        ownerAvatarImg.setImageFromURl(stringImageUrl: ("\(pullRequest.ownerAvatar)"))
+        ownerAvatarImg.sd_setImage(with: URL(string: "\(pullRequest.ownerAvatar)"))
+
     }
 }
