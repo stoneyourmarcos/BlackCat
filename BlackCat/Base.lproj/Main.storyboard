@@ -137,12 +137,12 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="ownerAvatarImg" destination="DJ4-1a-Vno" id="L5h-Ks-q8u"/>
-                                    <outlet property="ownerLoginLbl" destination="nOU-yq-DO7" id="acM-kP-oW2"/>
-                                    <outlet property="repoDescriptionLbl" destination="kcQ-3p-wGg" id="vYM-d6-xt7"/>
-                                    <outlet property="repoForksCountLbl" destination="ejx-wT-Mew" id="P0X-Ib-8h6"/>
-                                    <outlet property="repoNameLbl" destination="hQk-13-hEX" id="iO8-II-IAl"/>
-                                    <outlet property="repoStarsCountLbl" destination="Zxp-Vm-1uH" id="V5Q-9B-Yye"/>
+                                    <outlet property="repositoryDescriptionLbl" destination="kcQ-3p-wGg" id="Ggd-7s-8Fz"/>
+                                    <outlet property="repositoryForksCountLbl" destination="ejx-wT-Mew" id="yeF-NP-rFz"/>
+                                    <outlet property="repositoryNameLbl" destination="hQk-13-hEX" id="7rg-6j-RzH"/>
+                                    <outlet property="repositoryOwnerAvatarImg" destination="DJ4-1a-Vno" id="PB4-UA-yvW"/>
+                                    <outlet property="repositoryOwnerLoginLbl" destination="nOU-yq-DO7" id="0BP-Lb-6rb"/>
+                                    <outlet property="repositoryStarsCountLbl" destination="Zxp-Vm-1uH" id="abE-dg-DkX"/>
                                     <segue destination="g5T-bk-Vaq" kind="show" identifier="pullRequestSegue" id="8KC-30-9Pc"/>
                                 </connections>
                             </tableViewCell>
@@ -252,11 +252,11 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="ownerAvatarImg" destination="U4I-LP-LR6" id="yCS-1A-nmH"/>
-                                    <outlet property="ownerLoginLbl" destination="QR3-P6-6eE" id="yec-lC-jWw"/>
-                                    <outlet property="requestDescriptionLbl" destination="5EE-T6-BEP" id="aPH-M7-pFH"/>
-                                    <outlet property="requestNameLbl" destination="DEp-w1-IeI" id="ChN-Jb-hrW"/>
-                                    <outlet property="requestPushedAtLbl" destination="9cC-yA-ZpD" id="xlm-P0-JVJ"/>
+                                    <outlet property="pullRequestBodyLbl" destination="5EE-T6-BEP" id="I0B-SK-6x1"/>
+                                    <outlet property="pullRequestOwnerAvatarImg" destination="U4I-LP-LR6" id="izO-31-2p2"/>
+                                    <outlet property="pullRequestOwnerLoginLbl" destination="QR3-P6-6eE" id="pqv-Vu-Bgg"/>
+                                    <outlet property="pullRequestTitleLbl" destination="DEp-w1-IeI" id="qjM-T6-W8b"/>
+                                    <outlet property="pullRequestUpdatedAtLbl" destination="9cC-yA-ZpD" id="a9t-NA-EQq"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

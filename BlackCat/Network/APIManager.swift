@@ -1,11 +1,3 @@
-//
-//  APIManager.swift
-//  BlackCat
-//
-//  Created by Marcos Contente on 05/12/16.
-//  Copyright © 2016 Marcos Contente. All rights reserved.
-//
-
 import Foundation
 import Moya
 import PromiseKit
@@ -32,7 +24,6 @@ extension APIManager {
                     catch let error {
                         return reject(error)
                     }
-                    
                 case .failure(_):
                     return reject(CaseError.linkError)
                 }

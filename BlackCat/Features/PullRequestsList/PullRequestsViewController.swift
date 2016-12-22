@@ -1,11 +1,3 @@
-//
-//  RequePullRequestsViewController.swift
-//  BlackCat
-//
-//  Created by Marcos Contente on 08/12/16.
-//  Copyright © 2016 Marcos Contente. All rights reserved.
-//
-
 import UIKit
 import SafariServices
 
@@ -22,12 +14,11 @@ class PullRequestsViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        self.title = repositoryPullRequest
-        
+        title = repositoryPullRequest
         fetchPullReques()
     }
 }
+
 // MARK: - Table view data source
 
 extension PullRequestsViewController {
@@ -37,30 +28,30 @@ extension PullRequestsViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "RequestsCell", for: indexPath) as! PullRequestCell
-
         let request = pullRequests[indexPath.row]
-        
-        cell.configCell(forPullRequest: request)
-        
+        cell.config(withViewModel: PullRequestCellViewModel(withPullRequest: request))
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let urlString: String = pullRequests[indexPath.row].pullRequestUrl
-        if let url = URL(string: urlString) {
-            let svc = SFSafariViewController(url: url)
-            self.present(svc, animated: true, completion: nil)
-        }
+        let urlString: String = pullRequests[indexPath.row].pullRequestURL
+        guard let url = URL(string: urlString) else { return }
+        let svc = SFSafariViewController(url: url)
+        self.present(svc, animated: true, completion: nil)
     }
 }
+
+// MARK: - Methods
 
 extension PullRequestsViewController {
     
     func fetchPullReques(){
-        guard let ownerPullRequest = ownerPullRequest, let repositoryPullRequest = repositoryPullRequest else { return }
-        APIManager.fetchRepositoryPullRequests(owner: ownerPullRequest, repository: repositoryPullRequest).then { pullRequests -> Void in
+        guard let ownerPullRequest = ownerPullRequest,
+            let repositoryPullRequest = repositoryPullRequest else { return }
+        
+        APIManager.fetchRepositoryPullRequests(owner: ownerPullRequest, repository: repositoryPullRequest)
+            .then { pullRequests -> Void in
             self.pullRequests = pullRequests
             } .catch { error in
                 print(error)
